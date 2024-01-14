@@ -1,0 +1,62 @@
+.pink {
+  background-color: var(--pink);
+  position: relative;
+}
+.success .container {
+  display: flex;
+  align-items: center;
+}
+
+.success .container .box {
+  width: 50%;
+}
+
+.success .container .box .title {
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 78px;
+  padding-bottom: 22px;
+}
+.success .container .box .title span {
+  color: #756bee;
+}
+
+.success .container .box .text {
+  width: 551px;
+  color: #5a5a5a;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 40px;
+  line-height: 28px;
+}
+
+.success .container .box button {
+  width: 176px;
+  height: 58px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.left {
+  bottom: 46px;
+}
+
+.right {
+  top: 24px;
+  right: 1px;
+}
+
+.woman {
+  padding-top: 90px;
+  padding-right: 46px;
+  padding-bottom: 24px;
+}
+.water {
+  position: absolute;
+  width: 64px;
+  height: 55px;
+  bottom: 96px;
+  right: -21px;
+}
