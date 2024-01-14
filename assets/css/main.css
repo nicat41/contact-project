@@ -130,11 +130,12 @@
 }
 
 .features .box:nth-child(2) button {
-  padding: 14px 25px;
+  padding: 18px 30px;
   font-weight: 600;
   line-height: 27px;
   font-size: 18px;
   border: none;
+  width: 167px;
 }
 
 .feature {
@@ -208,10 +209,41 @@
 }
 
 .feature .container .company .box:nth-child(2) {
-  background-color: #7854F7;
+  background-color: #7854f7;
   color: #fff;
 }
 .feature .container .company .box:nth-child(2) .title,
 .feature .container .company .box:nth-child(2) .text {
   color: #fff;
+}
+
+.service .container {
+  display: flex;
+  column-gap: 32px;
+  padding-top: 220px;
+  color: #39364e;
+  padding: 200px 58px;
+  /* padding: 58px; */
+}
+.service .container .box {
+  width: 50%;
+}
+
+.service .container .box:first-child .title {
+  font-family: "Outfit", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 120%;
+  padding-bottom: 34px;
+}
+
+.service .container .box:first-child .text {
+  width: 486px;
+  line-height: 160%;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.service .container .box:first-child .text:not(:last-child) {
+  margin-bottom: 36px;
 }
