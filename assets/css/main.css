@@ -41,11 +41,12 @@
 
 .left {
   bottom: 46px;
+  left: -35px;
 }
 
 .right {
   top: 24px;
-  right: 1px;
+  right: -35px;
 }
 
 .woman {
@@ -59,4 +60,78 @@
   height: 55px;
   bottom: 96px;
   right: -21px;
+}
+
+.companies .container .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+  margin-bottom: 42px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: normal;
+}
+
+.nav-companies {
+  display: flex;
+  justify-content: center;
+  column-gap: 90px;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  column-gap: 96px;
+}
+
+.features .box {
+  width: 50%;
+}
+
+.features .box:first-child {
+  margin-top: 188px;
+}
+
+.small-box {
+  width: 276px;
+  height: 226px;
+  border-radius: 32px;
+  z-index: -1;
+  position: absolute;
+  top: -24px;
+  left: -24px;
+  border-radius: 32px;
+}
+.shape-img {
+  z-index: -1;
+  position: absolute;
+  right: -45px;
+  bottom: -25px;
+}
+
+.features .box:nth-child(2) .title {
+  font-size: 55px;
+  font-weight: 600;
+  width: 541px;
+  color: #39364e;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+
+.features .box:nth-child(2) .text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 29px;
+  color: #39364e;
+  letter-spacing: 0.18px;
+}
+
+.features .box:nth-child(2) button {
+  padding: 14px 25px;
+  font-weight: 600;
+  line-height: 27px;
+  font-size: 18px;
+  border: none;
 }

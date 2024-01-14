@@ -13,7 +13,10 @@
 }
 
 .rounded {
-    border-radius: 50px;
+  border-radius: 50px;
+}
+.rounded-32 {
+  border-radius: 32px;
 }
 
 .img-cover {
@@ -36,3 +39,9 @@
 .relative {
   position: relative;
 }
+.shape {
+  width: 122px;
+  height: 122px;
+}
+
+
