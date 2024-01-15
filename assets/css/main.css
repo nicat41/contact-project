@@ -371,3 +371,13 @@
   line-height: 22px;
   padding-bottom: 87px;
 }
+
+.shape-left {
+  bottom: 0px;
+  left: -83px;
+}
+.shape-right {
+  top: 0px;
+  right: -83px;
+
+}
