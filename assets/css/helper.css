@@ -12,7 +12,10 @@
   align-items: center;
   cursor: pointer;
 }
+.white-space {
+  white-space: nowrap;
 
+}
 .rounded {
   border-radius: 50px;
 }
@@ -43,5 +46,16 @@
 .shape {
   width: 122px;
   height: 122px;
+}
+.profile-img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50px;
+ 
+}
+
+.love-img {
+  width: 14px;
+  height: 14px;
 }
 
