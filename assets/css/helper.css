@@ -12,10 +12,7 @@
   align-items: center;
   cursor: pointer;
 }
-.white-space {
-  white-space: nowrap;
 
-}
 .rounded {
   border-radius: 50px;
 }
@@ -58,3 +55,9 @@
   width: 14px;
   height: 14px;
 }
+.img-wrap {
+  width: 590px;
+  height: 480px;
+}
+
+
