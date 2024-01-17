@@ -10,20 +10,9 @@
   padding-top: 40px;
 }
 
-.nav-logo {
-  display: flex;
-  align-items: center;
-  column-gap: 8px;
-}
-
 .header .container .nav-logo .logo {
-  width: 28px;
+  width: 150px;
   height: 28px;
-}
-
-.header .container .nav-logo .title {
-  font-size: 24px;
-  font-weight: 700;
 }
 
 .header .container .nav {
@@ -78,7 +67,6 @@
   column-gap: 22px;
   font-size: 20px;
 }
-/* /////////////////////////////////////////////////////////////// */
 
 .main-footer .about-footer {
   display: flex;
@@ -130,17 +118,18 @@
   letter-spacing: 0.16px;
   padding-left: 60px;
 }
-
+.footer-line {
+  border-top: 1px solid rgba(255, 255, 255, 0.31);
+}
 .reserved {
+  padding-left: 20px;
   display: flex;
-  justify-content: space-between;
-  color: #bdbec8;
+  column-gap: 372px;
+  color: #fff;
   padding-bottom: 31px;
   margin-top: 27px;
   line-height: 24px;
   font-weight: 400;
   font-family: "Outfit", sans-serif;
   border-top: 1px solid #0b363b;
-  outline-offset: 4px;
 }
-/* border-bottom: 1px solid rgba(255, 255, 255, 0.31); */

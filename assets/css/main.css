@@ -2,6 +2,7 @@
   background-color: var(--pink);
   position: relative;
 }
+
 .success .container {
   display: flex;
   align-items: center;
@@ -18,6 +19,7 @@
   line-height: 78px;
   padding-bottom: 22px;
 }
+
 .success .container .box .title span {
   color: #756bee;
 }
@@ -104,6 +106,7 @@
   left: -24px;
   border-radius: 32px;
 }
+
 .shape-img {
   z-index: -1;
   position: absolute;
@@ -224,6 +227,7 @@
   color: #39364e;
   padding: 200px 58px;
 }
+
 .service .container .box {
   width: 50%;
 }
@@ -252,6 +256,7 @@
   font-family: "Outfit", sans-serif;
   padding-bottom: 145px;
 }
+
 .portfolio .container .title {
   font-size: 42px;
   font-weight: 600;
@@ -259,6 +264,7 @@
   margin-bottom: 9px;
   margin-left: 15px;
 }
+
 .portfolio .container .text {
   font-size: 18px;
   font-weight: 400;
@@ -266,6 +272,7 @@
   padding-bottom: 50px;
   margin-left: 15px;
 }
+
 .portfolio .container .design {
   display: flex;
   flex-wrap: wrap;
@@ -279,9 +286,9 @@
   line-height: 140%;
   padding-top: 28px;
   padding-bottom: 28px;
-
   display: block;
 }
+
 .testimonial {
   background-color: #f5f4f0;
   padding-bottom: 115px;
@@ -315,16 +322,16 @@
   border-radius: 10px;
 }
 
-.testimonial .container .profile .box  {
+.testimonial .container .profile .box {
   padding-top: 50px;
   padding-left: 33px;
 }
-.testimonial .container .profile .box  .ritmo {
+.testimonial .container .profile .box .ritmo {
   margin-left: 15px;
+  padding-right: 50px;
 }
 
 .testimonial .container .profile .box .testimonial-text {
-padding-right: 80px;
   font-size: 15px;
   font-weight: 500;
   color: #696969;
@@ -346,10 +353,8 @@ padding-right: 80px;
 
 .testimonial .container .profile .box .personality {
   padding-top: 9px;
-  margin-right: 40px;
   padding-bottom: 87px;
   border-top: 1px solid #f0f0f0;
-  padding-right: 10px;
 }
 
 .testimonial .container .profile .box .personality p {
@@ -357,7 +362,6 @@ padding-right: 80px;
   font-weight: 700;
   line-height: 22px;
   font-family: "DM Sans", sans-serif;
-
 }
 
 .testimonial .container .profile .box .personality span {
